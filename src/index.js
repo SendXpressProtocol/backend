@@ -8,10 +8,12 @@ const listingsRouter = require('./routes/listings');
 const chatRouter     = require('./routes/chat');
 const dealsRouter    = require('./routes/deals');
 const { issueChallenge, verifySignature } = require('./middleware/auth');
+const { rateLimit } = require('./middleware/rateLimit');
 
 const app = express();
 app.use(cors());
 app.use(express.json());
+app.use(rateLimit(100, 60_000));
 
 app.get('/api/health', (_, res) => res.json({ status: 'ok' }));
 

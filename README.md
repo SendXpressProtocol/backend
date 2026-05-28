@@ -1,6 +1,6 @@
 <div align="center">
 
-# OyaShip Backend
+# SendXpress Backend
 
 **REST API for cross-border social commerce with Stellar escrow.**
 
@@ -16,13 +16,13 @@
 
 ## Overview
 
-This is the backend API for **OyaShip** — a social commerce platform where importers discover products from global suppliers, negotiate in real-time chat, and pay safely through smart contract escrow on Stellar.
+This is the backend API for **SendXpress** — a social commerce platform where importers discover products from global suppliers, negotiate in real-time chat, and pay safely through smart contract escrow on Stellar.
 
 The API handles user management, social feed, marketplace listings, real-time chat, and orchestrates Stellar transactions for the escrow deal lifecycle.
 
 **Related repos:**
-- [OyaShip/mobile](https://github.com/OyaShip/mobile) — SwiftUI iOS app
-- [OyaShip/smartcontract](https://github.com/OyaShip/smartcontract) — Soroban escrow contract
+- [SendXpress/mobile](https://github.com/SendXpress/mobile) — SwiftUI iOS app
+- [SendXpress/smartcontract](https://github.com/SendXpress/smartcontract) — Soroban escrow contract
 
 ---
 
@@ -129,7 +129,7 @@ backend/
 ### Setup
 
 ```bash
-git clone https://github.com/OyaShip/backend.git
+git clone https://github.com/SendXpress/backend.git
 cd backend
 cp .env.example .env
 ```

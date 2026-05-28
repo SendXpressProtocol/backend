@@ -27,6 +27,6 @@ app.use('/api/chat',     chatRouter);
 app.use('/api/deals',    dealsRouter);
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`OyaShip API running on :${PORT}`));
+app.listen(PORT, () => console.log(`SendXpress API running on :${PORT}`));
 
 module.exports = app;

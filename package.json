@@ -1,7 +1,7 @@
 {
-  "name": "oyaship-backend",
+  "name": "sendxpress-backend",
   "version": "1.0.0",
-  "description": "OyaShip API — Express + Supabase + Stellar",
+  "description": "SendXpress API — Express + Supabase + Stellar",
   "main": "src/index.js",
   "scripts": {
     "dev": "node --watch src/index.js",

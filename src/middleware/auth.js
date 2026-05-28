@@ -9,7 +9,7 @@ function issueChallenge(req, res) {
   const { wallet } = req.query;
   if (!wallet) return res.status(400).json({ error: 'wallet required' });
 
-  const nonce = `oyaship:${Date.now()}:${Math.random().toString(36).slice(2)}`;
+  const nonce = `sendxpress:${Date.now()}:${Math.random().toString(36).slice(2)}`;
   challenges.set(wallet, { nonce, expires: Date.now() + 60_000 });
   res.json({ nonce });
 }

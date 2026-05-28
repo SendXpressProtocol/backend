@@ -1,4 +1,4 @@
-# Contributing to OyaShip Backend
+# Contributing to SendXpress Backend
 
 Thank you for your interest in contributing!
 
@@ -9,7 +9,7 @@ Thank you for your interest in contributing!
 3. Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/OyaShip/backend.git
+git clone https://github.com/SendXpress/backend.git
 cd backend
 npm install
 cp .env.example .env
